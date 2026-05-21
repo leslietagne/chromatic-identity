@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Data (trop lourd pour GitHub)
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Figures générées
+figures/*.png
+figures/*.pdfdata/
+assets/
+figures/embeddings.json
+figures/embeddings_checkpoint.json
+figures/vestiaire.json
+figures/trends.json

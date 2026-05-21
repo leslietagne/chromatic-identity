@@ -1,0 +1,12 @@
+streamlit
+plotly
+scikit-learn
+numpy
+Pillow
+transformers
+torch
+httpx
+playwright
+pytrends
+beautifulsoup4
+mlflow
