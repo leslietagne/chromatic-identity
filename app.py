@@ -350,13 +350,8 @@ st.markdown('<hr class="divider">', unsafe_allow_html=True)
 st.markdown('<div class="section-label">The Analysis</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-title">When colour tells the story.</div>', unsafe_allow_html=True)
 
-filtre = st.selectbox("", ["All eras","Bottega Veneta","Louis Vuitton"], label_visibility="collapsed")
-if filtre == "Bottega Veneta":
-    eras_shown = ["BV — Tomas Maier","BV — Daniel Lee","BV — Matthieu Blazy"]; brands_shown = ["bv"]
-elif filtre == "Louis Vuitton":
-    eras_shown = ["LV — Marc Jacobs","LV — Nicolas Ghesquière"]; brands_shown = ["lv"]
-else:
-    eras_shown = ERA_ORDER; brands_shown = ["bv","lv"]
+eras_shown   = ERA_ORDER
+brands_shown = ["bv","lv"]
 
 st.markdown("<br><span class='chart-label'>Chromatic signature by creative era</span>", unsafe_allow_html=True)
 st.plotly_chart(palette_fig(eras_shown, height_per_row=56), use_container_width=True, config=CFG)
