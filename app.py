@@ -481,6 +481,36 @@ leave a structural trace in the data.
 
 st.markdown('<hr class="divider">', unsafe_allow_html=True)
 
+# ⑤ CONCLUSION
+st.markdown('<div class="section-label">Results</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-title">What the data tells us.</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:1rem">
+
+  <div style="border:1px solid #1a1a1a;padding:2rem;background:#0a0a0a">
+    <div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;margin-bottom:0.8rem">H1 — Validated</div>
+    <div style="font-family:'Bodoni Moda',serif;font-size:1.3rem;color:#e8e8e8;margin-bottom:1rem;line-height:1.3">BV and LV occupy distinct regions of the visual embedding space.</div>
+    <div style="font-size:0.82rem;color:#666;line-height:1.8">The t-SNE projection of 6,731 CLIP embeddings shows clear separation between the two houses. Their chromatic DNA is measurably different — quiet luxury vs visible luxury is not just a marketing concept, it is a data signal.</div>
+  </div>
+
+  <div style="border:1px solid #1a1a1a;padding:2rem;background:#0a0a0a">
+    <div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;margin-bottom:0.8rem">H2 — Partially Validated</div>
+    <div style="font-family:'Bodoni Moda',serif;font-size:1.3rem;color:#e8e8e8;margin-bottom:1rem;line-height:1.3">Director transitions leave a measurable chromatic trace.</div>
+    <div style="font-size:0.82rem;color:#666;line-height:1.8">The 2019 BV shift is the sharpest chromatic break in the dataset, coinciding with Daniel Lee's first collection. However, correlation with commercial proxies (Google Trends, resale prices) requires further investigation to establish causality.</div>
+  </div>
+
+</div>
+
+<div style="border:1px solid #1a1a1a;padding:2rem;background:#0a0a0a;margin-top:2rem">
+  <div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;margin-bottom:0.8rem">Key Finding</div>
+  <div style="font-family:'Bodoni Moda',serif;font-size:1.5rem;color:#e8e8e8;margin-bottom:1rem;line-height:1.3">Matthieu Blazy's BV records the widest colour spectrum of any era — counterintuitive for a house defined by restraint.</div>
+  <div style="font-size:0.82rem;color:#666;line-height:1.8">Low saturation, high colour diversity. Sophistication through variety, not intensity. A finding that challenges the "quiet luxury = monochrome" narrative.</div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<hr class="divider">', unsafe_allow_html=True)
+
 # ④ METHODOLOGY
 st.markdown('<div class="section-label">Methodology</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-title">The pipeline, step by step.</div>', unsafe_allow_html=True)
