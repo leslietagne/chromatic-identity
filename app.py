@@ -461,6 +461,24 @@ st.markdown("""<div class="insight"><div class="insight-text">
 Matthieu Blazy records the highest colour diversity of any BV era — counterintuitive for a house defined by restraint. Low saturation, wide hue spectrum: sophistication through variety, not intensity.
 </div></div>""", unsafe_allow_html=True)
 
+st.markdown("<br>", unsafe_allow_html=True)
+
+# t-SNE
+st.markdown("<span class='chart-label'>CLIP embedding space — t-SNE projection by creative era</span>",
+            unsafe_allow_html=True)
+st.markdown(f"""
+<div style="border:1px solid #1a1a1a;overflow:hidden;animation:fadeUp 0.8s ease both">
+  {img_b64("figures/tsne.png")}
+</div>
+""", unsafe_allow_html=True)
+st.markdown("""<div class="insight"><div class="insight-text">
+Each point is one runway image projected into 2D space via t-SNE on 512-dimensional CLIP embeddings.
+The separation between BV (dark tones) and LV (gold tones) confirms that the two houses occupy
+distinct regions of the visual embedding space — their aesthetic DNA is measurably different.
+Within each house, sub-clusters correspond to creative eras, validating that director transitions
+leave a structural trace in the data.
+</div></div>""", unsafe_allow_html=True)
+
 st.markdown('<hr class="divider">', unsafe_allow_html=True)
 
 # ④ METHODOLOGY
