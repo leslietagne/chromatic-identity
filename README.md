@@ -3,7 +3,7 @@
 
 > *What if the shift in a creative director's vision could be measured, not just felt?*
 
-**[→ Live Dashboard](https://your-app.streamlit.app)** &nbsp;|&nbsp; Built by [Leslie Tagne](https://linkedin.com/in/leslietagne)
+**[→ Live Dashboard](https://chromatic-identity-mtwjjpjxdqi7nyy6cavfym.streamlit.app)** &nbsp;|&nbsp; Built by [Leslie Tagne](https://linkedin.com/in/leslietagne)
 
 ---
 
